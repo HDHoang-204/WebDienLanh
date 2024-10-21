@@ -1,0 +1,62 @@
+.menu {
+    width: 100%;
+    height: 90px;
+    background-color: #FFFF;
+    color: black;
+
+
+    nav {
+        display: flex;
+        width: 80%;
+        position: relative;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto;
+        padding: 15px 0px 0px 0px;
+
+        a {
+            color: black;
+
+            h1 {
+                font-weight: 900;
+                font-size: 20px;
+
+                span {
+                    font-weight: 900;
+                    font-size: 20px;
+                    color: #fec104;
+                }
+            }
+        }
+
+        ul {
+            display: flex;
+
+            li {
+                margin: 0px 10px;
+
+                a {
+                    font-size: 18px;
+                    font-weight: 800;
+                    transition: 0.3s;
+                }
+
+                a:hover {
+                    color: #fec104;
+                }
+            }
+        }
+
+        .btn {
+            font-weight: 800;
+            color: #FFFF;
+        }
+
+        .btn:hover {
+            background-color: #FFFF;
+            color: #fec104;
+        }
+
+
+    }
+}

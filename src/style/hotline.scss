@@ -1,0 +1,41 @@
+.hotline {
+    width: 100%;
+    background-color: #00254a;
+    height: 50px;
+
+    ul {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-around;
+        align-items: center;
+
+        .ht {
+            a {
+                color: white;
+                font-size: 14px;
+                margin: 0px 5px;
+                transition: 0.4s;
+            }
+
+            a:hover {
+                color: #fec104;
+            }
+        }
+
+        .dn {
+            a {
+                color: white;
+                font-size: 14px;
+                margin: 0px 5px;
+                transition: 0.4s;
+            }
+
+            a:hover {
+                color: #fec104;
+            }
+        }
+    }
+
+
+}
