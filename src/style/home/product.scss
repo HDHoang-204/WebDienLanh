@@ -1,9 +1,9 @@
 .product {
     width: 100%;
-    margin: 40px 0px 20px;
+    margin: 40px 0px 40px;
 
     .pr {
-        margin: 0px 200px;
+        margin: 0px 150px;
 
         .text-pr {
             text-align: center;
@@ -29,51 +29,74 @@
             }
         }
 
+        .slick-track {
+            display: flex;
+            gap: 20px;
+            /* Khoảng cách giữa các slide */
+        }
+
         .container {
-            width: 100%;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            margin-left: 60px;
 
-            .product-box {
-                width: 280px;
-                border: 1px solid #ebebeb;
-                display: block;
-                text-align: center;
-                transition: 0.2s;
+            // display: grid;
+            // grid-template-columns: repeat(4, 1fr);
+            margin-left: 150px;
 
-                img {
+
+
+            .slick {
+
+                width: 1300px;
+
+
+
+                .product-box {
+
                     width: 270px;
-                    height: 270px;
-                }
-
-                .product-text {
-                    width: 100%;
-                    padding: 0px 0px 10px;
-
-                    h3 {
-                        display: block;
+                    border: 1px solid #ebebeb;
+                    display: block;
+                    text-align: center;
+                    transition: 0.2s;
 
 
-                        a {
-                            font-size: 14px;
-                            color: black;
+                    img {
+                        width: 270px;
+                        height: 270px;
+                        margin: 0px 15px;
+                    }
+
+                    .product-text {
+                        width: 270px;
+                        padding: 0px 0px 10px;
+                        margin: 0px 15px;
+
+                        h3 {
+                            display: block;
+
+
+                            a {
+                                font-size: 14px;
+                                color: black;
+                            }
+
                         }
 
-                    }
-
-                    span {
-                        font-size: 17px;
-                        color: #fec104;
-                        font-weight: 700;
+                        span {
+                            font-size: 17px;
+                            color: #fec104;
+                            font-weight: 700;
+                        }
                     }
                 }
+
+                .product-box:hover {
+                    border: 1px solid #fec104;
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                }
+
+
+
             }
 
-            .product-box:hover {
-                border: 1px solid #fec104;
-                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-            }
         }
 
 

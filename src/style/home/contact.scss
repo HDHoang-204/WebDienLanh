@@ -1,0 +1,235 @@
+.contacts {
+    padding: 80px 0px;
+    width: 100%;
+
+    .gt {
+        background-color: #f7f7f7;
+
+        .gt-box {
+            width: 80%;
+            margin: 0 auto;
+            padding: 80px 00px;
+
+            .gt-text {
+                text-align: center;
+                margin: 0px 0px 40px 0px;
+
+                h1 {
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    position: relative;
+                }
+
+                h1:after {
+                    content: '';
+                    border: 1px solid #fec104;
+                    width: 100px;
+                    height: 1px;
+                    display: inline-block;
+                    background-color: #fec104;
+                    position: absolute;
+                    bottom: -10px;
+                    left: 47%;
+                }
+
+            }
+
+            .gt-main {
+                display: flex;
+                width: 100%;
+                justify-content: space-evenly;
+
+                .gt-main-text {
+                    width: 670px;
+                    display: inline-block;
+
+                    padding: 0px 30px;
+                    line-height: 25px;
+
+                    h3 {
+                        font-size: 28px;
+                        padding: 10px 0px;
+                    }
+
+                    p {
+                        font-size: 17px;
+                        color: #848484;
+                        padding: 10px 0px;
+                    }
+
+                    ul {
+                        li {
+                            font-size: 17px;
+                            color: #848484;
+                            list-style: inside;
+                        }
+
+                        margin-bottom: 20px;
+                    }
+
+
+
+                    .btn {
+                        font-weight: 800;
+                        color: #FFFF;
+                        padding: 15px 28px;
+                    }
+
+                    .btn:hover {
+                        background-color: #FFFF;
+                        color: #fec104;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .dv {
+
+        .slick-track {
+            display: flex;
+            gap: 20px;
+            /* Khoảng cách giữa các slide */
+        }
+
+        .dv-product {
+
+            margin-left: 350px;
+
+            .dv-text {
+                h1 {
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    position: relative;
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                }
+
+                h1:after {
+                    content: '';
+                    border: 1px solid #fec104;
+                    width: 100px;
+                    height: 1px;
+                    display: inline-block;
+                    background-color: #fec104;
+                    position: absolute;
+                    bottom: -10px;
+                    left: 0%;
+                }
+            }
+
+            .dv-container {
+                width: 1200px;
+
+
+                .ass {
+                    width: 100%;
+
+                    .dv-box {
+                        display: block;
+                        width: 180px;
+                        height: 330px;
+                        border: 1px solid #ebebeb;
+
+                        margin-left: -7px;
+
+                        .img {
+                            position: relative;
+                            width: 270px;
+                            height: 150px;
+                            margin: 5px 5px;
+                            overflow: hidden;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+
+                                display: block;
+                            }
+
+                            .conten {
+                                width: 100%;
+                                height: 100%;
+                                top: 0;
+                                left: 0;
+                                position: absolute;
+                                background: rgba(0, 0, 0, 0.6);
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                opacity: 0;
+                                transition: 0.6s;
+                                transform: translateY(-100px);
+
+                            }
+
+
+
+
+
+
+
+                            .btn {
+
+                                color: #FFFF;
+
+                            }
+
+
+
+                        }
+
+
+                        .dv-text {
+
+                            width: 270px;
+                            padding: 0px 0px 10px;
+                            line-height: 25px;
+                            text-align: center;
+
+                            h3 {
+                                display: block;
+                                margin: 10px 0px;
+
+                                a {
+                                    font-size: 22px;
+                                    color: black;
+                                }
+
+                            }
+
+                            p {
+                                font-size: 14px;
+
+
+                            }
+                        }
+                    }
+
+                    .dv-box:hover>.img>.conten {
+                        opacity: 1;
+                        transform: translateY(0);
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    }
+
+                    .dv-box:hover>.img>.conten>.btn:hover {
+                        background-color: #FFFF;
+                        color: #fec104;
+                    }
+                }
+
+
+
+
+
+
+
+
+            }
+        }
+
+    }
+}
