@@ -1,0 +1,176 @@
+.duan {
+    padding: 40px 0px 0px 0px;
+    width: 100%;
+
+
+    .banner {
+        background-color: #00254a;
+        padding: 40px 0px;
+        color: #ffff;
+
+        .bn-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-right: 40px;
+
+            .bn-text {
+
+                h3 {
+                    font-size: 34px;
+                    margin-bottom: 14px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+
+            .ct {
+
+                .btn {
+                    padding: 15px 30px;
+                    border-radius: 40px;
+                    font-size: 15px;
+                    font-weight: 800;
+                    border: 2px solid #fec104;
+                    background-color: #ffff;
+                    color: black;
+                    transition: 0.3s;
+                }
+
+                .btn:hover {
+
+                    background-color: #fec104;
+                    color: #ffff;
+
+                }
+            }
+        }
+    }
+
+    .duan-main {
+        width: 100%;
+        background-color: #f7f7f7;
+        padding: 80px 0px 60px;
+
+        .duan-content {
+            width: 50%;
+            margin: 0 auto;
+
+            .da-text {
+                text-align: center;
+                margin: 0px 0px 40px 0px;
+
+                h1 {
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    position: relative;
+                }
+
+                h1:after {
+                    content: '';
+                    border: 1px solid #fec104;
+                    width: 100px;
+                    height: 1px;
+                    display: inline-block;
+                    background-color: #fec104;
+                    position: absolute;
+                    bottom: -10px;
+                    left: 45%;
+                }
+            }
+
+            .da-list {
+                width: 100%;
+                padding: 50px 0px;
+
+                ul {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    li {
+
+                        border: 1px solid #e5e5e5;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 0px 10px;
+
+                        a {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            color: black;
+                            transition: 0.4s;
+                        }
+
+                        span {
+                            font-size: 15px;
+                            padding: 10px 20px;
+                            text-align: center;
+                        }
+
+
+                    }
+
+                    li:hover>a {
+                        background-color: #fec104;
+                        color: #ffff;
+
+
+                    }
+                }
+            }
+
+            .da-menu {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                row-gap: 30px;
+                column-gap: 20px;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+
+                .da-box {
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                        overflow: auto;
+                        display: block;
+                    }
+
+                    .wrapper {
+                        width: 100%;
+                        height: 100%;
+                        background-color: #00254ace;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        opacity: 0;
+                        transition: 0.4s;
+                    }
+                }
+
+                .da-box:hover {
+                    .wrapper {
+                        opacity: 1;
+                    }
+                }
+
+
+            }
+        }
+    }
+
+}
