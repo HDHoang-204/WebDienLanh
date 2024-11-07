@@ -52,7 +52,7 @@ function Contact() {
                         <h1>Dịch vụ</h1>
                     </div>
                     <div className='dv-container'>
-                        <Slider {...settings} className='ass' >
+                        <Slider {...settings}  >
 
                             <div className='dv-box'>
                                 <div className="img">

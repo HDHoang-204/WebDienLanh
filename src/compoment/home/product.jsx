@@ -23,7 +23,7 @@ function Product() {
                 </div>
 
                 <div className='container'>
-                    <Slider {...settings} className='slick'>
+                    <Slider {...settings} >
 
                         <div className='product-box'>
                             <img src="https://bizweb.dktcdn.net/thumb/large/100/246/606/products/product9-600x600-1b5a4b8c-d44d-4728-b64b-9f32eb8abcec-46b5d65f-ad88-4e8a-9375-0e73e1ac6c09-c3ae5433-4b1e-4890-8ee1-c2c0e36c1a7a.jpg?v=1503417956917" alt="" />
